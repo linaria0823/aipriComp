@@ -21,7 +21,7 @@ let himitsuItemList = [];
 let verseItemList = [];
 
 // JSON取得
-await fetch("https://github.com/linaria0823/aipriComp/blob/main/json/himitsuItem.JSON")
+await fetch("https://github.com/linaria0823/aipriComp/blob/main/json/himitsuItem.JSON?raw=true")
 .then(response => {
   return response.json();
 })
@@ -29,7 +29,7 @@ await fetch("https://github.com/linaria0823/aipriComp/blob/main/json/himitsuItem
   himitsuItemList = data;
 });
 
-await fetch("https://github.com/linaria0823/aipriComp/blob/main/json/verseItem.JSON")
+await fetch("https://github.com/linaria0823/aipriComp/blob/main/json/verseItem.JSON?raw=true")
 .then(response => {
   return response.json();
 })

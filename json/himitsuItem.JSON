@@ -1,4 +1,3 @@
 [
-    {"value": "V4-001", "version" : "4", "name" : "カルテットスターバズリウムハート-ワンピ", "src" : "/img/himitsu/AP4-001.png"},
-    {"value": "V4-002", "version" : "4", "name" : "カルテットスターバズリウムハート-シューズ", "src" : "https://github.com/linaria0823/aipri/blob/main/img/verse/V4-002.png?raw=true"}
+    {"value": "AP4-001", "version" : "4", "name" : "カルテットスターバズリウムハート", "src" : "https://github.com/linaria0823/aipriComp/blob/main/img/himitsu/AP4-001.png?raw=true"}
 ]
