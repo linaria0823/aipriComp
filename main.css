@@ -1,0 +1,171 @@
+.title {
+    text-align: center;
+}
+
+.loginButton {
+    float: right;
+    margin-top: 30px;
+}
+
+.head {
+    position: fixed;
+    width: 100%;
+}
+
+.body {
+    padding-top: 70px;
+}
+
+.tab {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* タブメニュー */
+.tab__menu {
+    display: flex;
+    align-items: flex-end; /* メニューを下揃え&高さを調整 */
+    justify-content: center;
+    min-height: 50px; /* メニュー切替時にタブがズレないように */
+    padding: 0;
+    margin: 0;
+}
+
+.tab__menu-item {
+    list-style: none;
+    width: 200px;
+    padding: 8px 5px; /* メニューに高さを付ける */
+    text-align: center;
+    margin-right: 6px;
+    background-color: #cdcdcd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    transition: all .3s; /* アニメーション */
+}
+
+.tab__menu-item:last-of-type {
+    margin-right: 0px;
+}
+
+/* is-activeがついている時のスタイル */
+.tab__menu-item.is-active {
+    background-color: rgba(48, 172, 249);
+    color: #ffffff;
+    padding: 12px 5px;
+}
+
+/* タブパネル */
+.tab__panel {
+    width: 100%;
+}
+
+.tab__panel-box {
+    min-height: 400px; /* テキスト量が多くなっても対応できるように */
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.tab__panel-box001 {
+    background-color: rgb(205, 246, 246);
+    display: none;
+}
+
+.tab__panel-box002 {
+    background-color: rgb(249 227 243);
+    display: none;
+}
+
+/* is-showがついている時のスタイル */
+.tab__panel-box.is-show {
+    display: block;
+}
+
+.itemButton {
+    width: auto;
+    border: 0;
+    border-radius: 10px;
+}
+
+.noClick {
+    background-color: #ffffff;
+}
+
+.isClick {
+    background-color: #fbff0061;
+}
+
+.itemImg {
+ width: 75px;
+}
+
+.tooltip1{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+.tooltip1 p{
+    margin:0;
+    padding:0;
+}
+.description1 {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.6em;
+    color: #fff;
+    border-radius: 5px;
+    background: #000;
+    width: 100px;
+}
+.description1:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border: 15px solid transparent;
+    border-top: 15px solid #000;
+    margin-left: -15px;
+}
+.tooltip1:hover .description1{
+    display: inline-block;
+    top: -70px;
+    left: -30px;
+}
+
+.tooltip1{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+.tooltip1 p{
+    margin:0;
+    padding:0;
+}
+.description1 {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.6em;
+    color: #fff;
+    border-radius: 5px;
+    background: #000;
+    width: 100px;
+}
+.description1:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border: 15px solid transparent;
+    border-top: 15px solid #000;
+    margin-left: -15px;
+}
+.tooltip1:hover .description1{
+    display: inline-block;
+    top: -70px;
+    left: -30px;
+}
