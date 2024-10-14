@@ -1,0 +1,17 @@
+[
+    {"value": "V1-004", "version" : "1", "name" : "ポッピンハートバズリウム-ワンピ", "src" : "/img/verse/V1-001.png"},
+    {"value": "V1-005", "version" : "1", "name" : "ポッピンハートバズリウム-シューズ", "src" : "/img/verse/V1-002.png"},
+    {"value": "V1-006", "version" : "1", "name" : "ポッピンハートバズリウム-アクセ", "src" : "/img/verse/V1-003.png"},
+    {"value": "V2-004", "version" : "2", "name" : "カルテットスターバズリウムスペード-ワンピ", "src" : "/img/verse/V2-004.png"},
+    {"value": "V2-005", "version" : "2", "name" : "カルテットスターバズリウムスペード-シューズ", "src" : "/img/verse/V2-005.png"},
+    {"value": "V2-006", "version" : "2", "name" : "カルテットスターバズリウムスペード-アクセ", "src" : "/img/verse/V2-006.png"},
+    {"value": "V3-010", "version" : "3", "name" : "カルテットスターバズリウムスペード-ワンピ", "src" : "/img/verse/V3-010.png"},
+    {"value": "V3-011", "version" : "3", "name" : "カルテットスターバズリウムスペード-シューズ", "src" : "/img/verse/V3-011.png"},
+    {"value": "V3-012", "version" : "3", "name" : "カルテットスターバズリウムスペード-アクセ", "src" : "/img/verse/V3-012.png"},
+    {"value": "V4-001", "version" : "4", "name" : "カルテットスターバズリウムハート-ワンピ", "src" : "/img/verse/V4-001.png"},
+    {"value": "V4-002", "version" : "4", "name" : "カルテットスターバズリウムハート-シューズ", "src" : "/img/verse/V4-002.png"},
+    {"value": "V4-003", "version" : "4", "name" : "カルテットスターバズリウムハート-アクセ", "src" : "/img/verse/V4-003.png"},
+    {"value": "V4-004", "version" : "4", "name" : "カルテットスターバズリウムスペード-ワンピ", "src" : "/img/verse/V4-004.png"},
+    {"value": "V4-005", "version" : "4", "name" : "カルテットスターバズリウムスペード-シューズ", "src" : "/img/verse/V4-005.png"},
+    {"value": "V4-006", "version" : "4", "name" : "カルテットスターバズリウムスペード-アクセ", "src" : "/img/verse/V4-006.png"}
+]

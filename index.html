@@ -5,14 +5,17 @@
   <title>アイプリコンプチェック</title>
   <link rel="stylesheet" href="main.css">
   <script type="text/javascript" src="sample.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="header"></div>
   <div class="main">
     <div class="head">
       <h1 class="title">アイプリコンプチェック</h1>
+      <button class="loginButton">ログイン</button>
     </div>
-    <button class="loginButton">ログイン</button>
     <div class="body">
       <div class="tab">
         <ul class="tab__menu">
@@ -23,7 +26,7 @@
         <div class="tab__panel-box tab__panel-box001 is-show" data-panel="himitsu">
           <div style="display: inline;">
             バージョン:
-            <select name="pets" id="pet-select">
+            <select name="pets" id="himitsu-version-select" class="versionSelect">
               <option value="0">全弾</option>
               <option value="1">1弾</option>
               <option value="2">2弾</option>
@@ -32,18 +35,21 @@
             </select>
             <div style="display: inline;">
               取得状況:
-              <select name="pets" id="pet-select">
+              <select name="pets" id="himitsu-get-select">
                 <option value="0">すべて</option>
                 <option value="1">取得済み</option>
                 <option value="2">未所持</option>
               </select>
             </div>
           </div>
+          <div>
+            <ul id="dispHimitsuItemList"></ul> <!-- リストを表示する場所 -->
+          </div>
         </div>
         <div class="tab__panel-box tab__panel-box002" data-panel="verse">
           <div style="display: inline;">
             バージョン:
-            <select name="pets" id="pet-select">
+            <select name="pets" id="verse-version-select" class="versionSelect">
               <option value="0">全弾</option>
               <option value="1">1弾</option>
               <option value="2">2弾</option>
@@ -52,18 +58,15 @@
             </select>
             <div style="display: inline;">
               取得状況:
-              <select name="pets" id="pet-select">
+              <select name="pets" id="verse-get-select">
                 <option value="0">すべて</option>
                 <option value="1">取得済み</option>
-                <option value="1">未所持</option>
+                <option value="2">未所持</option>
               </select>
             </div>
           </div>
           <div>
-            <button id="test1" class="noClick tooltip1 itemButton" onclick="image()">
-              <div class="description1">カルテットスターバズリウムハート-ワンピ</div>
-              <img class="itemImg"src="https://github.com/linaria0823/aipri/blob/main/img/verse/image.png?raw=true">
-            </button>
+            <ul id="dispVerseItemList"></ul> <!-- リストを表示する場所 -->
           </div>
         </div>
       </div>
